@@ -18,7 +18,7 @@ async def send_welcome(message):
 
 @bot.message_handler(commands=['info'])
 async def info_message(message):
-    info = 'Я родился вчера но уже могу рассказать o cebe меня зовут Спивдагон и я родился для Джоджо референса всё'
+    info = 'Я родился вчера но уже могу рассказать o cebe меня зовут Спидвагон и я родился для Джоджо референса всё'
     bot.reply_to(message, info)
 
 asyncio.run(bot.polling())
